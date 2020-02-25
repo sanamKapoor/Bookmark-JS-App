@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <title>Bookmark Sites</title>
+</head>
+<body onload="fetchBookmark()">
+  <div class="container">
+    <form id="my-form">
+      <h1 id="title">Bookmark Your favourite sites</h1>
+      <div class="info">
+       
+        <input type="text" name="" id="siteName" placeholder="Enter Site Name ..." class="form-control mt-2">
+       
+        <input type="url" name="" id="siteUrl" placeholder="Enter URL ...." class="form-control mt-3">
+      </div>
+      <input type="submit" class="btn mt-4" value="Submit" id="sub-btn">
+    </form>
+  </div>
+  <div id="content">
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
